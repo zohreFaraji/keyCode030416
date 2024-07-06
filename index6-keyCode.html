@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <main>
+        <!-- start bottomFixedImage -->
+        <div class="bottomImage">
+            <figure class="imgFixed"><img src="assets/img/img/4.png" alt="">
+                <a href="https://github.com/zohreFaraji"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/zohre-faraji-41822315a/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/zohrefaraji212/"><i class="bi bi-instagram"></i></a>
+            </figure>
+        </div>
+        <!-- end bottomFixedImage -->
+        <header>
+            <div class="left">
+                <img src="assets/img/1.png" alt="">
+                <p>Utilities > Keycodes</p>
+            </div>
+
+            <button class="table">table</button>
+        </header>
+        <div class="center">
+            <h3 id="headerCode">JavaScript Key Code 65</h3>
+            <h1 id="code" contenteditable="true">65</h1>
+            <h4>Key Code Information</h4>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="header">event.key</div>
+                <div class="cardBody" id="body1">a</div>
+                <div class="footer">The value of the key pressed. Accounts for modifiers keys that return CAPS and
+                    alternate chars.</div>
+            </div>
+            <div class="card">
+                <div class="header">event.location</div>
+                <div class="cardBody" id="body2">0</div>
+                <div class="footer">Some keys exist more than once on your keyboard. This provides the location of the
+                    key pressed. Try it with both shifts.</div>
+            </div>
+            <div class="card">
+                <div class="header">event.code</div>
+                <div class="cardBody" id="body3">Key A</div>
+                <div class="footer">The physical key on the keyboard. Doesn't care if you are holding a modifier like
+                    Shift.</div>
+            </div>
+            <div class="card">
+                <div class="header">event.which</div>
+                <div class="cardBody" id="body4">65</div>
+                <div class="footer">event.which and event.keyCode are deprecated in modern browsers. Use .key or .code
+                    instead.</div>
+            </div>
+        </div>
+
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
